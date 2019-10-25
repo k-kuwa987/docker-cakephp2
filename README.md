@@ -15,6 +15,13 @@ $ docker-compose up -d
 You can check at http://localhost:8000
 
 
+### Mail config
+
+```
+-  'host' => 'localhost',
++  'host' => '<your mailhog container name>',
+```
+
 ## Remove Containers
 
 ```
