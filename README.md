@@ -1,21 +1,14 @@
 # docker-cakephp2-template
 
-By using Docker-Compose, you can build CakePHP3 environment easily.
+By using Docker-Compose, you can build CakePHP2.10.19 and php5.5 environment easily.
 
 
 
 
-### Create Docker Images
-It will take about two or three minutes.
+### How to initialize
 
 ```
 $ docker-compose build
-```
-
-
-## Build Up
-
-```
 $ docker-compose up -d
 ```
 
